@@ -16,11 +16,30 @@ Is important to understand that this analysis is not meant to criticize tourism 
 
 I might not arrive to the final conclusion since is extensive analysis for a weekend.
 
-## Coclusions I reached so far!
-- Q1 
+## Coclusions I reached so far! 
+- Q1 -- Districts with mosth airbnb
 
-![ERDD schema](./Pictures_SQL_PPT/))
----
+![districts with most Airbnb](./Pictures_SQL_PPT/Q1.png)
+
+-Q2 -- Top 15 districts average prices x night - 50sqm only
+
+![Top 15 districts average prices x night - 50sqm only](./Pictures_SQL_PPT/Q2.png)
+
+-Q3 - Top 15 districts minimun average prices x night -50sqm
+
+![Top 15 districts average prices x night - 50sqm only](./Pictures_SQL_PPT/Q3.png)
+
+_Q4 -- % of difference in renting prices vs Airbnb by sqm in a monthly basis
+
+![Top 15 districts average prices x night - 50sqm only](./Pictures_SQL_PPT/Q4.png)
+
+- ERD 
+![ERD](./Pictures_SQL_PPT/Captura%20de%20Pantalla%202022-09-04%20a%20las%2022.45.11.png)
+
+- Outliers in Price and Avg.Price
+
+![Outliers](./Pictures_SQL_PPT/Captura%20de%20Pantalla%202022-09-04%20a%20las%2022.54.17.png)
+
 
 ## Technical Requirements - which I also followed for the proyect:
 - A) Grab DataSources that have enought data regarding Airbnb and the renting prices in the last years
@@ -52,9 +71,16 @@ I might not arrive to the final conclusion since is extensive analysis for a wee
  - B) Forgot to look for Outliers, too much time worried for knowing if i was going to be able to do all steps with my okeish python skills, time is cruel
  - C) Loosing my weekend sitting down, i hope to get a good job. At least I Had fun and prove myself i could manage all alone!!!
 
-## Some cool results
+## Some Thoughts
 
+- I was to quick with the analysis, is sad that I had to be too fast for it to manage some results
+- Analyisis is always the priority !!! 
+- More confident with Python! i was very worried i would not manage to do some complicated stuff
+- finding resources was exhausting since most times was limited or not complete (the usual in general)
+- I requested APIS to Idealista.com I hope they send them and to a Mallorquinian govermnet database for all the ETV( legal turistic renting aparments)
+- Wished I had more time to fool around with Data Analysis and create some Graphics on the dataframes.
 
+Cheers and thanks for reading! 
 
 
 
