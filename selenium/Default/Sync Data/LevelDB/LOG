@@ -1,2 +1,3 @@
-2022/09/03-22:10:34.726 14703 Creating DB /Users/jaimemac/Documents/Github Access/Ejercicios-semana4/w4-ETL-Project/selenium/Default/Sync Data/LevelDB since it was missing.
-2022/09/03-22:10:34.840 14703 Reusing MANIFEST /Users/jaimemac/Documents/Github Access/Ejercicios-semana4/w4-ETL-Project/selenium/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/09/04-12:02:00.537 ca03 Reusing MANIFEST /Users/jaimemac/Documents/Github Access/Ejercicios-semana4/w4-ETL-Project/selenium/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/09/04-12:02:00.537 ca03 Recovering log #3
+2022/09/04-12:02:00.539 ca03 Reusing old log /Users/jaimemac/Documents/Github Access/Ejercicios-semana4/w4-ETL-Project/selenium/Default/Sync Data/LevelDB/000003.log 
