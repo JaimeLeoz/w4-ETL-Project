@@ -17,6 +17,7 @@ Is important to understand that this analysis is not meant to criticize tourism 
 I might not arrive to the final conclusion since is extensive analysis for a weekend.
 
 ## Coclusions I reached so far! 
+
 - Q1 -- Districts with mosth airbnb
 
 ![districts with most Airbnb](./Pictures_SQL_PPT/Q1.png)
