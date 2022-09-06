@@ -1,9 +1,10 @@
 # Project: ETL
 
-![portada](https://www.informatica.com/content/dam/informatica-com/en/images/misc/etl-process-explained-diagram.png)
+![portada](./Pictures_SQL_PPT/MallorcaArbnb.png)
 
 
-## Overview
+## INTRO
+  ### Airbnb vs rent prices in Mallorca:
 
 My week proyect is about finding out if Airbnb renting does affect real renting prices by square meters in a historical data.
 
@@ -20,30 +21,32 @@ I might not arrive to the final conclusion since is extensive analysis for a wee
 
 - Q1 -- Districts with mosth airbnb
 
-![districts with most Airbnb](./Pictures_SQL_PPT/Q1.png)
+ ![districts with most Airbnb](./Pictures_SQL_PPT/Q1.png)
 
--Q2 -- Top 15 districts average prices x night - 50sqm only
+- Q2 -- Top 15 districts average prices x night - 50sqm only
 
 ![Top 15 districts average prices x night - 50sqm only](./Pictures_SQL_PPT/Q2.png)
 
--Q3 - Top 15 districts minimun average prices x night -50sqm
+- Q3 - Top 15 districts minimun average prices x night -50sqm
 
 ![Top 15 districts average prices x night - 50sqm only](./Pictures_SQL_PPT/Q3.png)
 
-_Q4 -- % of difference in renting prices vs Airbnb by sqm in a monthly basis
+- Q4 -- % of difference in renting prices vs Airbnb by sqm in a monthly basis
 
-![Top 15 districts average prices x night - 50sqm only](./Pictures_SQL_PPT/Q4.png)
+![Query4](./Pictures_SQL_PPT/Query4.png)
+![Top 15 districts average prices x night - 50sqm only](./Pictures_SQL_PPT/Q4final.png)
 
 - ERD 
 ![ERD](./Pictures_SQL_PPT/Captura%20de%20Pantalla%202022-09-04%20a%20las%2022.45.11.png)
 
 - Outliers in Price and Avg.Price
 
-![Outliers](./Pictures_SQL_PPT/Captura%20de%20Pantalla%202022-09-04%20a%20las%2022.54.17.png)
 
++
 
 ## Technical Requirements - which I also followed for the proyect:
-- A) Grab DataSources that have enought data regarding Airbnb and the renting prices in the last years
+
+- A) Grab DataSources that have enough data regarding Airbnb and the renting prices in the last years
   - I reached a good source for Airbnb: http://insideairbnb.com/get-the-data
   - Fought my way through scrapping data for the renting prices in all the districts of Mallorca : https://realadvisor.es/es/precios-viviendas/provincia-baleares
   - Found a way for this data to be connected in SQL with primary and foreing keys using the *Postal codes of each district * from wikipedia
@@ -60,8 +63,10 @@ _Q4 -- % of difference in renting prices vs Airbnb by sqm in a monthly basis
 
 - A) I been quite impress by how I managed to jump over new issues, errors etc. I was able to solve all of them and understand the errors.
 - B) I managed to do some precious loops in order to keep all district names homogeneous - gigantic next time will focus on writting functions.
-  - There were different issues with distric names, like spanish version, catalonian version and accents
-  - I had to keep them equal in all the three different tables in order to do proper analysis
+       ![Loops](./Pictures_SQL_PPT/loop.png)
+    - There were different issues with district names, like spanish version, catalonian version and accents
+    - I had to keep them equal in all the three different tables in order to do proper analysis
+
 - C) Managed to include the postal codes in the airbnb table for each specific district
 - D) Managed to upload to SQL, ERD and do some cool Queries to find some answers
 
@@ -70,14 +75,17 @@ _Q4 -- % of difference in renting prices vs Airbnb by sqm in a monthly basis
 
  - A) Find out some nulls, they avoided me, also affected the first SQL Workbench upload
  - B) Forgot to look for Outliers, too much time worried for knowing if i was going to be able to do all steps with my okeish python skills, time is cruel
+
+ - ![Outliers](./Pictures_SQL_PPT/Captura%20de%20Pantalla%202022-09-04%20a%20las%2022.54.17.png)
+
  - C) Loosing my weekend sitting down, i hope to get a good job. At least I Had fun and prove myself i could manage all alone!!!
 
 ## Some Thoughts
 
 - I was to quick with the analysis, is sad that I had to be too fast for it to manage some results
 - Analyisis is always the priority !!! 
-- More confident with Python! i was very worried i would not manage to do some complicated stuff
-- finding resources was exhausting since most times was limited or not complete (the usual in general)
+- More confident with Python! I was very worried i would not manage to do some complicated stuff
+- Finding resources was exhausting since most times was limited or not complete (the usual in general)
 - I requested APIS to Idealista.com I hope they send them and to a Mallorquinian govermnet database for all the ETV( legal turistic renting aparments)
 - Wished I had more time to fool around with Data Analysis and create some Graphics on the dataframes.
 
