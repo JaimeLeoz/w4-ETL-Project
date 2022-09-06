@@ -19,6 +19,8 @@ I might not arrive to the final conclusion since is extensive analysis for a wee
 
 ## Coclusions I reached so far! 
 
+DATA OF AIRBNB IS BASED ON THE MONTHS OF MARCH & SEPT 2021, AND JUNE & SEPT 2022 all together.
+
 - Q1 -- Districts with mosth airbnb
 
  ![districts with most Airbnb](./Pictures_SQL_PPT/Q1.png)
